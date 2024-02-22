@@ -1,0 +1,74 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body{
+  background-color: rgb(251, 253, 255);
+  max-width: 1200px;
+  padding: 24px;
+  margin: auto;
+  display: grid;
+  gap: 25px;
+}
+
+.loginForm {
+  display: grid;
+  min-height: 92vh;
+  place-content: center;
+  gap: 24px;
+
+  #logout {
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    color: #27AE60;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Arial;
+  }
+
+  button {
+    outline: none;
+    padding: 12px 4rem 12px 4rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 16px;
+    background-color: #27AE60;
+    color: #fff;
+  }
+}
+
+.input-icon {
+  position: relative;
+  
+
+  input {
+    outline: none;
+    padding: 12px 4rem 12px 4rem;
+    font-size: 2rem;
+    border: none;
+    color:#787476;
+    border-radius: 16px;
+    background-color: rgb(110 68 68 / 8%);
+  }
+
+
+  i{
+    color: #27AE60;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2.4rem;
+  }
+
+  .bi-person-circle, .bi-lock-fill {
+    left: 1rem;
+  }
+
+
+  .bi-eye-fill, .bi-eye-slash-fill{
+    right: 1rem;
+  }
+}
+

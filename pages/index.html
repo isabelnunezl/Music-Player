@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Música</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left-nav">
+                <div class="input-icon">
+                    <input type="text" id="search" placeholder="¿Qué quieres escuchar?"/>
+                    <i class="bi bi-search" id="searchIcon"></i>
+                </div>
+            </div>
+            <a href="../pages/login.html"><i class="bi bi-person-circle"></i></a>
+        </nav>
+    </header>
+    
+    <main>
+            <div class="list-container">
+                <div class="list">
+                    <div class="songs-list">
+                        <div class="title-songs">
+                            <h2>Biblioteca General</h2>
+                        </div> 
+                        <div class="songs" id="biblioteca"></div>
+                    </div>
+                </div>
+
+                <div class="list">
+                    <div class="songs-list">
+                        <div class="title-songs">
+                            <h2>Favoritos</h2>
+                        </div> 
+                        <div class="songs" id="favorites"></div>
+                    </div>
+                </div>
+
+                <div class="list">
+                    <div class="songs-list">
+                        <div class="title-songs">
+                            <h2>PlayList</h2>
+                        </div> 
+                        <div class="songs" id="playlist"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="song-container">
+
+                <div class="title-now-playing">
+                    <h2>Now Playing</h2>
+                </div>      
+
+                <div class="song-container" id="song-container"></div>
+
+                <div class="reproductor-controls">
+                    <div class="music-control">
+                        <audio id="audio" preload="metadata"></audio>
+                        <button class="control-btn" id="rewind"><i class="bi bi-rewind-fill"></i></button>
+                        <button class="control-btn" id="play"><i id="playIcon" class="bi bi-play-circle-fill"></i></button>
+                        <button class="control-btn" id="stop"><i class="bi bi-stop-circle-fill"></i></button>
+                        <button class="control-btn" id="forward"><i class="bi bi-fast-forward-fill"></i> </button>
+                        <button class="control-btn" id="mute"><i id="volumeIcon" class="bi bi-volume-up-fill"></i></button>
+                    </div>
+                </div>   
+            </div>         
+            
+
+        
+    </main>
+    <script src="../src/main.js"></script>
+</body>
+</html>
