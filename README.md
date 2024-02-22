@@ -1,9 +1,9 @@
 # Credenciales de Usuarios 🔐
-**Usuario:** bauti
-**Contraseña:** bauti
+- **Usuario:** bauti
+- **Contraseña:** bauti
 
-**Usuario:** santi
-**Contraseña:** santi
+- **Usuario:** santi
+- **Contraseña:** santi
 
 
 # Requerimientos 
